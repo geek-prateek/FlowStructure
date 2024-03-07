@@ -27,7 +27,7 @@ namespace FlowStructure.Service
         public static T GetInstance<T>()
         {
             if (!isOk)
-                getFunc(); //True
+                getFunc(); //true
             return container.GetInstance<T>();
         }
         /*
